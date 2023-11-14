@@ -13,7 +13,7 @@ function Home() {
           </span>
       </div>
       <div className="social">
-        <a href="/resources/mycv.pdf" target="_blank"><button>Resume</button></a>
+        <a href="#" target="_blank"><button>Resume</button></a>
           <ul>    
             <li><a href="https://github.com/MYassineBoum" target="_blank"><i className="bi bi-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/myassineboumehdi/" target="_blank"><i className="bi bi-linkedin"></i></a></li>
