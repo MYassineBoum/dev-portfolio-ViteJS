@@ -23,6 +23,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-weight: bold;
     color: #FFFBF3;
     text-shadow: 2px 1px 2px #000000;
     transition: .2s;
@@ -32,4 +33,15 @@ nav ul li a:hover {
     color: #05192D;
     text-shadow: none;
     transition: .2s;
+}
+
+nav ul li a.active {
+    color: #05192D;
+    text-shadow: none;
+    transition: .2s;
+}
+
+.active a {
+    color: #05192D;
+    text-shadow: none;
 }
