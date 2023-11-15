@@ -1,38 +1,78 @@
-:root {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 85vh;
-    width: 100%;
-    background-color: #F6F1EE;
+body {
+    background-color: #F7F7FC;
+    overflow: hidden;
 }
 
 .general {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 40px;
+    height: max-content;
 }
 
 h1 {
-    color: #872341;
+    color: #05192D;
     font-size: 46px;
-    padding-bottom: 15px;
 }
 
 h1 span {
-    color: #BE3144;
+    color: #03EF62;
 }
 
 h3 {
-    color: #22092C; 
+    color: #5646A5; 
     font-size: 28px;
-    padding-bottom: 30px;
 }
 
 p {
-    color: #22092C;
+    color: #05192D;
     font-size: 46px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+.social button {
+    width: 140px;
+    padding: 20px;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid #05192D;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5646A5;
+    transition: .3s;
+}
+
+.social button:hover {
+    background-color: #05192D;
+    color: #03EF62;
+    transition: .3s;
+    outline: none;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.social ul li a {
+    font-size: 30px;
+    cursor: pointer;
+    color: #e0fbfc;
+    background: none;
+    transition: 0.2s;
+}
+
+.social ul li a:hover  {
+    opacity: .4;
 }

@@ -2,7 +2,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #22092C;
+    background-color: #03EF62;
     padding: 20px;
     width: 100%;
 }
@@ -23,9 +23,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #F05941;
+    color: #FFFBF3;
+    text-shadow: 2px 1px 2px #000000;
+    transition: .2s;
 }
 
 nav ul li a:hover {
-    color: #BE3144;
+    color: #05192D;
+    text-shadow: none;
+    transition: .2s;
 }
