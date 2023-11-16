@@ -5,6 +5,7 @@ nav {
     background-color: #03EF62;
     padding: 20px;
     width: 100%;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {

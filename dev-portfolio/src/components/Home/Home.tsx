@@ -1,24 +1,18 @@
 import React from 'react'
 import './Home.css'
+import { Download } from 'react-bootstrap-icons';
+import * as Icon from 'react-bootstrap-icons';
 
 function Home() {
   return (
     <>
-      <div className="general">
-        {/* <img src={} alt="me"> */}
-          <span>
-              <h3>Hi, my name is</h3>
-              <h1>Mohammed<span>-</span>Yassine BOUMEHDI.</h1>
-              <p>Innovate, Code, Deliver.</p>
-          </span>
+      <div className="first-zone">
+        <h1>Hi<span>,</span> I'm Mohammed<span>-</span>Yassine<br />BOUMEHDI<span>.</span></h1>
+        <h2>Software Engineer<span>,</span><br />Competitive Programme<span>,</span><br />DevOps <span>&</span> Cloud Enthusiast<span>.</span></h2>
+        <button>Resume <span><Icon.Download /></span></button>
       </div>
-      <div className="social">
-        <a href="#" target="_blank"><button>Resume</button></a>
-        <ul>    
-          <li><a href="https://github.com/MYassineBoum" target="_blank"><i className="bi bi-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/myassineboumehdi/" target="_blank"><i className="bi bi-linkedin"></i></a></li>
-          <li><a href="https://myboum.me/" target="_blank"><i className="bi bi-globe"></i></a></li>
-        </ul>
+      <div className="second-zone">
+        <img src="Capture.PNG" alt="" />
       </div>
     </>
   )
