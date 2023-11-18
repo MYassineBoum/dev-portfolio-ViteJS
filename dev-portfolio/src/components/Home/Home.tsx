@@ -12,7 +12,11 @@ function Home() {
         <button>Resume <span><Icon.Download /></span></button>
       </div>
       <div className="second-zone">
-        <img src="Capture.PNG" alt="Personal photo." />
+        <div className="image-container">
+          <img src="Capture.PNG" alt="Personal photo." />
+          <span className="highlight-line-h"></span>
+          <span className="highlight-line-v"></span>
+        </div>
       </div>
     </>
   )
