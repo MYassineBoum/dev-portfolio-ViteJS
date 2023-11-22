@@ -2,16 +2,20 @@ body {
     background-color: #F7F7FC;
 }
 
+.home-zone {
+    z-index: 1;
+}
+
 .first-zone {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     float: left;
+    z-index: 1;
 }
 
 .first-zone span {
     color: #03EF62;
-
     transition: .3s;
 }
 
@@ -58,7 +62,6 @@ body {
 .first-zone button span {
     position: relative;
     right: -100px;
-    
     transition: .2s;
     visibility: hidden;
     bottom: -2px;

@@ -6,6 +6,7 @@ nav {
     padding: 20px;
     width: 100%;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 nav ul {
@@ -36,13 +37,9 @@ nav ul li a:hover {
     transition: .2s;
 }
 
-nav ul li a.active {
-    color: #05192D;
-    text-shadow: none;
-    transition: .2s;
-}
 
-.active a {
+
+.active {
     color: #05192D;
     text-shadow: none;
 }
