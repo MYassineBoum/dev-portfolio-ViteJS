@@ -2,16 +2,11 @@ body {
     background-color: #F7F7FC;
 }
 
-.home-zone {
-    z-index: 1;
-}
-
 .first-zone {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     float: left;
-    z-index: 1;
 }
 
 .first-zone span {
@@ -24,11 +19,13 @@ body {
     font-weight: 700;
     color: #05192D;
     text-align: start;
+    z-index: 1;
 }
 
 .first-zone h2 {
     color: #5646A5;
     text-align: start;
+    z-index: 1;
 }
 
 .first-zone h2 span {
@@ -47,6 +44,7 @@ body {
     color: #05192D;
     transition: .3s;
     overflow: hidden;
+    z-index: 1;
 }
 
 .first-zone button:hover {
