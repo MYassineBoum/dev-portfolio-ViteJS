@@ -1,0 +1,20 @@
+.projects {
+    display: inline-grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.project-card {
+    background-color: #5646A5;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.project-card:hover {
+    box-shadow: 8px 8px 20px gray;
+    transform: translateX(-5px);
+    transform: translateY(-5px);
+    transition: .5s;
+}
